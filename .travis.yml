@@ -25,4 +25,5 @@ before_script:
   - cordova platform add android
 
 script:
+  - cordova plugin add aerogear-cordova-push
   - npm test
